@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ / VSCode
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# other
+*.db
