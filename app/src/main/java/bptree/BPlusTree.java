@@ -15,7 +15,7 @@ import java.io.*;
 public class BPlusTree {
 
     /** Size of each on-disk page, in bytes. */
-    private static final int PAGE_SIZE = 256;
+    private static final int PAGE_SIZE = 4096;
 
     private final DiskManager disk;
     private final LRUCache<Long, Node> cache;

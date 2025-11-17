@@ -11,25 +11,25 @@ A fully functional **disk-based B+Tree index** implemented in Java, featuring:
 
 This project aims to closely model how real database systems implement B+Trees and buffer pools.
 
-## 🚀 Features
+## Features
 
-### ✔ Disk-backed storage  
-Nodes live in fixed-size pages (default: 256 bytes).  
+### Disk-backed storage  
+Nodes live in fixed-size pages (default: 4KB).  
 `DiskManager` persists nodes and maintains a metadata page for the root pointer.
 
-### ✔ Insert & search support  
+### Insert & search support  
 - Full recursive insert algorithm  
 - Splitting logic for leaf & internal nodes  
 - Promotion of median keys  
 - Binary search inside nodes for fast access
 
-### ✔ Leaf chain  
+### Leaf chain  
 Leaves store a `next` pointer supporting fast sequential scans.
 
-### ✔ Pretty Printing  
+### Pretty Printing  
 - `printTree()` shows full hierarchical structure  
 - `printLeaves()` displays keys in sorted leaf-chain order
 
-### ✔ Swing Visualizer  
+### Swing Visualizer  
 `BPlusTreeVisualizerGUI` visually renders the tree with a tidy layout algorithm.
 
