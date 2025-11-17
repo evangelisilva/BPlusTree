@@ -1,4 +1,4 @@
-# **Disk-Backed B+Tree with LRU Cache & Visualizer**
+# **Disk-Backed B+Tree**
 
 A fully functional **disk-based B+Tree index** implemented in Java, featuring:
 
